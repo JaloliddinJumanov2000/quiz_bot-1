@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-06-14 20:47+0500\n"
+"POT-Creation-Date: 2025-06-15 16:49+0500\n"
 "PO-Revision-Date: 2025-06-12 20:45+0500\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: uz\n"
@@ -18,24 +18,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.13.1\n"
 
-#: handlers/menu.py:12 keyboards/reply/button.py:36
-msgid "Testlar"
-msgstr ""
-
 #: handlers/menu.py:14
 msgid "Barcha testlar"
 msgstr ""
 
-#: handlers/menu.py:17 keyboards/reply/button.py:37
-msgid "Natijalar"
-msgstr ""
-
 #: handlers/menu.py:19
 msgid "Barcha Natijalar"
-msgstr ""
-
-#: handlers/menu.py:22 keyboards/reply/button.py:40
-msgid "Tilni o`zgartirish"
 msgstr ""
 
 #: handlers/menu.py:27 handlers/menu.py:35 handlers/menu.py:38
@@ -125,6 +113,18 @@ msgstr ""
 
 #: keyboards/reply/button.py:23
 msgid "📲 Telefon ulashish"
+msgstr ""
+
+#: keyboards/reply/button.py:36
+msgid "Testlar"
+msgstr ""
+
+#: keyboards/reply/button.py:37
+msgid "Natijalar"
+msgstr ""
+
+#: keyboards/reply/button.py:40
+msgid "Tilni o`zgartirish"
 msgstr ""
 
 #: utils/notify_admins.py:11
