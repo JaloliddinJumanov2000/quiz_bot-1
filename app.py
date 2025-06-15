@@ -13,8 +13,8 @@ from dotenv import load_dotenv
 from middlewares.db_i18n import DatabaseI18nMiddleware
 from utils.notify_admins import bot_start_up, bot_shut_down
 from handlers import *
-from utils.set_commands import  set_commands
 from utils.set_commands import set_commands
+
 load_dotenv()
 TOKEN = getenv("BOT_TOKEN")
 dp = Dispatcher()
