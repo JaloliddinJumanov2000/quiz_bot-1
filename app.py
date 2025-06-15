@@ -28,6 +28,8 @@ async def main() -> None:
 
     i18n = I18n(path="locales", default_locale="uz", domain="messages")
     dp.update.outer_middleware.register(DatabaseI18nMiddleware(i18n))
+
+
     await set_commands(bot)
     await dp.start_polling(bot)
 
